@@ -71,7 +71,7 @@ describe('EAS API', () => {
         expect(eas.contract.signer).to.be.null;
         expect(eas.contract.provider).not.to.be.null;
 
-        expect(await eas.getVersion()).to.equal(await easContract.VERSION());
+        expect(await eas.getVersion()).to.equal(await easContract.version());
       });
     });
 

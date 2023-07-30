@@ -39,7 +39,7 @@ export class EIP712Proxy extends Base<EIP712ProxyContract> {
 
   // Returns the version of the contract
   public getVersion(): Promise<string> {
-    return this.contract.VERSION();
+    return this.contract.version();
   }
 
   // Returns the address of the EAS contract

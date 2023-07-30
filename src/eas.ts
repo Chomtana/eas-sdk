@@ -73,7 +73,7 @@ export class EAS extends Base<EASContract> {
 
   // Returns the version of the contract
   public getVersion(): Promise<string> {
-    return this.contract.VERSION();
+    return this.contract.version();
   }
 
   // Returns an existing schema by attestation UID

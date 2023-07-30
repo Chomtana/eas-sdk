@@ -31,7 +31,7 @@ describe('SchemaRegistry API', () => {
 
   describe('construction', () => {
     it('should properly create an EAS API', async () => {
-      expect(await schemaRegistry.getVersion()).to.equal(await schemaRegistryContract.VERSION());
+      expect(await schemaRegistry.getVersion()).to.equal(await schemaRegistryContract.version());
     });
   });
 

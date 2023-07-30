@@ -36,7 +36,7 @@ export class SchemaRegistry extends Base<SchemaRegistryContract> {
 
   // Returns the version of the contract
   public getVersion(): Promise<string> {
-    return this.contract.VERSION();
+    return this.contract.version();
   }
 
   // Registers a new schema and returns its UID
